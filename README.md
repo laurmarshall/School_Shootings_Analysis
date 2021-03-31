@@ -1,5 +1,5 @@
 # Title
-!(https://github.com/laurmarshall/School_Shootings_Analysis/blob/main/images/school-shooting-header.jpeg)
+![](https://github.com/laurmarshall/School_Shootings_Analysis/blob/main/images/school-shooting-header.jpeg)
 ## A Look at School Shootings and Gun Ownership in the United States
 ### Lauren Marshall, Data Scientist
 [LinkedIn](https://www.linkedin.com/in/lauren-marshall-7603491b5/)|[GitHub](https://github.com/laurmarshall)|[Slides](https://github.com/laurmarshall/Burnout-In-Tech/blob/main/Burnout%20in%20the%20Tech%20Industry.pdf)
@@ -10,6 +10,8 @@
 ## Exploratory Data Analysis
 ![US School Shootings by City](https://github.com/laurmarshall/School_Shootings_Analysis/blob/main/images/US%20School%20Shootings%20by%20City.png)
 
+
+![US School Shootings: Fatalities and Number of Events](https://github.com/laurmarshall/School_Shootings_Analysis/blob/main/images/US%20School%20Shootings:%20Fatalities%20and%20Number%20of%20Events.png)
 ### Machine Learning Techniques
 
 ### Maps
