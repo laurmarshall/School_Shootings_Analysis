@@ -2,7 +2,7 @@
 ![](https://github.com/laurmarshall/School_Shootings_Analysis/blob/main/images/school-shooting-header.jpeg)
 ## A Look at School Shootings and Gun Laws in the United States
 ### Lauren Marshall, Data Scientist
-[LinkedIn](https://www.linkedin.com/in/lauren-marshall-7603491b5/)|[GitHub](https://github.com/laurmarshall)|[Slides](https://github.com/laurmarshall/Burnout-In-Tech/blob/main/Burnout%20in%20the%20Tech%20Industry.pdf)
+[LinkedIn](https://www.linkedin.com/in/lauren-marshall-7603491b5/)|[GitHub](https://github.com/laurmarshall)|[Slides](https://github.com/laurmarshall/School_Shootings_Analysis/blob/main/presentation/School%20Shooting%20Analysis.pdf)
 ## Background and Motivation
 Since 2009, the [United States](https://www.cnn.com/2018/05/21/us/school-shooting-us-versus-world-trnd/index.html) has had over 57 times as many school shootings as Canada, France, Germany, Japan, Italy, and the UK combined. This is not a statistic you want your country to be leading in.
 [Trends](https://www.cnn.com/interactive/2019/07/us/ten-years-of-school-shootings-trnd/) show school shootings are on the rise. They are more likely to happen in urban areas and the risk of casualities increases if the student body is primarily white.
@@ -31,12 +31,15 @@ The data consists of three different datasets from [Kaggle](https://www.kaggle.c
 This first map shows the location of all US school shootings since 1990. California is the state with the highest count at 77 and North Dakota is the state with the lowest at 0.
 ![US School Shootings by City](https://github.com/laurmarshall/School_Shootings_Analysis/blob/main/images/US%20School%20Shootings%20by%20City.png)
 
+
 Interesting to compare, the graph below show the Number of guns per capita. Wyoming had the highest value at 229 guns per 1,000 residents. It was 3 times the amount of the second highest, Washington, D.C. with 68 guns per 1,000 residents. Yet Wyoming only had 2 school shootings.
 ![Gun Ownership Per Capita](https://github.com/laurmarshall/School_Shootings_Analysis/blob/main/images/Gun%20Ownership%20Per%20Capita.png)
 
+
 In looking for connections between the number of fatalities and number of school shootings per year there seems to be similar results up until 2006. However, events such as the Virginia Tech shooting in 2007 where 32 people were killed and the Sand Hook Elementary shooting in 2012 where 26 people were killed skew this relationship.
 ![US School Shootings: Fatalities and Number of Events](https://github.com/laurmarshall/School_Shootings_Analysis/blob/main/images/US%20School%20Shootings:%20Fatalities%20and%20Number%20of%20Events.png)
-### Machine Learning Techniques
+
+## Machine Learning Techniques
 My guiding question was how do gun laws predict the number of school shootings?
 
 Gradient Boosting returned the highest percentage with a R2 score of 71%.
@@ -53,11 +56,12 @@ The most important features were:
   9. opencarryl: No open carry of long guns is allowed in public places
   10. mcdvsurrendernoconditions: People convicted of a misdemeanor crime of domestic violence against a spouse, ex-spouse, or cohabitating partner are required to surrender their firearms with no exceptions
 
-### Graphs
+## Times Series Predictions
 This prediction overall shows an increase in school shootings. However due to the somewhat challenging nature of predicting these events the range of the maximum and minimum around the trend line is very broad.
 ![Time Series Prediction on Number of School Shootings](https://github.com/laurmarshall/School_Shootings_Analysis/blob/main/images/Time%20Series%20Prediction%20on%20Number%20of%20School%20Shootings.png)
 
-This graph also shows an increase, but at a much higher rate. The data is more linear and so the prediciton window is smaller as well. I think it is worth noting that from 1992 to 2006 there is a decrease in school shootings (the black dots in the graph above) and an increase in gun laws. However after 2006 the negative correlation does not hold.
+
+This graph below also shows an increase, but at a much higher rate. The data is more linear and so the prediciton window is smaller as well. I think it is worth noting that from 1992 to 2006 there is a decrease in school shootings (the black dots in the graph above) and an increase in gun laws. However after 2006 the negative correlation does not hold.
 ![Time Series Prediction on Gun Laws](https://github.com/laurmarshall/School_Shootings_Analysis/blob/main/images/Time%20Series%20Prediction%20on%20Gun%20Laws.png)
 
 ### Natural Language Processing
